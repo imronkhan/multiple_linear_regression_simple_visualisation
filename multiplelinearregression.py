@@ -6,7 +6,6 @@ from sklearn.model_selection import train_test_split
 np.random.seed(42)
 num_samples = 100
 X1 = np.random.rand(num_samples, 1) * 10 
-
 X2 = np.random.rand(num_samples, 1) * 5   
 y = 2 * X1 + 3 * X2 + np.random.randn(num_samples, 1) * 2 
 
